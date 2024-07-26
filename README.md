@@ -45,3 +45,13 @@ if ($conn->connect_error) {
 1. Open your web browser and navigate to localhost/phpmyadmin/.
 2. Select your database to view and manage the database information.
 
+## Implementation
+### Home Page
+![1721997040194](https://github.com/user-attachments/assets/ead37eb2-abc4-43e5-81e0-83dd92f1d097)
+
+### Vehicle Registration
+![1721997040283](https://github.com/user-attachments/assets/5149db14-05ff-4892-8b4d-c84fd941fd3f)
+
+
+
+
