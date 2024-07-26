@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+<header class="header">
+<img 
+    src="./rto.png" 
+class="header-image"
+/>
+<h1 class="header-title">RTO</h1>
+<h3 class="header-project">Department Of Motor Vehicle</h3>
+</header>
+<div style="padding-left:12px;padding-top:5px;padding-bottom:5px;color: darkOrange;">
+<h2>Generate Challan</h1>
+</div>
+<form action="phpChallanForm.php" method="post" class="registration-form">
+
+<label class="label-field" for="cid">Id:</label>
+ <input type="text" class="input-field" id="cid"  name="cid"  value="">
+
+<label class="label-field" for="vid">Vehicle Id:</label>
+<input type="text" class="input-field" id="vid" name="vid"  value="">
+<label class="label-field" for="amt">Amount:</label><br>
+<input type="text" class="input-field" id="amt" name="amt"  value="">
+
+<label class="label-field" for="type">Violation Type:</label><br>
+
+<select class="select-field" name="type" >
+	<option value=" "> </option>
+	<option value="Overspeeding">Overspeeding</option>
+	<option value="No seat belt">No seat belt</option>
+	<option value="No licence">No licence</option>
+</select><br>
+<label class="label-field" for="issuedate">Issue Date:</label>
+<input type="date" class="input-field" id="issuedate" name="issuedate" placeholder="yyyy-mm-dd" value="" >
+<input type="submit" class="submit-button" value="Submit">
+</form> 
+</body>
+</html>

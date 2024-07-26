@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+<header class="header">
+   <img 
+    src="./rto.png" class="header-image"
+            />
+<h1 class="header-title">RTO</h1>
+<h3 class="header-project">Department Of Motor Vehicle</h3>
+</header>
+<div style="padding-left:12px;padding-top:5px;padding-bottom:5px;color: darkOrange;">
+  <h2>Register Driver</h1>
+</div>
+<form action="phpPersonForm.php" method="post" class="registration-form">
+    <label class="label-field" for="Id">Id:</label>
+    <input type="text" id="id" name="id" class="input-field" value="">
+    
+    <label class="label-field" for="fname">Name:</label><br>
+    <input type="text" id="name" name="name" class="input-field" value=""><br>
+    
+    <label class="label-field" for="DOB">Date Of Birth:</label><br>
+    <input type="date" class="input-field" id="dob" name="dob" class="input-field" value=""><br>
+    
+    <label class="label-field" for="address">Address:</label><br>
+    <textarea class="input-field"  id="address" name="address" class="address-field"></textarea><br>
+    
+    <input type="submit" value="Submit" class="submit-button">
+  </form>
+</body>
+</html>

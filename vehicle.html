@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+<header class="header">
+<img 
+    src="./rto.png" 
+class="header-image"
+ />
+<h1 class="header-title">RTO</h1>
+<h4 class="header-project">Department Of Motor Vehicle</h4>
+</header>
+<div style="padding-left:12px;padding-top:5px;padding-bottom:5px;color: darkOrange;">
+  <h2>Register Vehicle</h2>
+</div>
+<form action="phpVehicleForm.php" method="post" class="registration-form">
+
+<label class="label-field" for="id">Id:</label>
+<input type="text" id="id" name="id" class="input-field" value=""> 
+
+<label class="label-field"  for="type">Vehicle Type:</label>
+<select name="type" class="select-field">
+  <option value=" ">Select Type</option>
+  <option value="Car">Car</option>
+  <option value="MotorCycle">MotorCycle</option>
+  <option value="Truck">Truck</option>
+</select>
+     
+<label class="label-field" for="regnum">Registration Number:</label>
+<input type="text" id="regnum" name="regnum" class="input-field" value="">
+    
+<label class="label-field" for="mfgdate">Manufacturing Date:</label>
+<input type="date" id="mfgdate" name="mfgdate" class="input-field" value="">
+      
+<label class="label-field" for="regndate">Registration Date:</label>
+<input type="date" id="regndate" name="regndate" class="input-field" value="">
+  
+<label class="label-field" for="mfr">Manufacturer:</label>
+        <select name="mfr" class="select-field">
+          <option value=" ">Select Manufacturer</option>
+          <option value="Toyota">Toyota</option>
+          <option value="Suzuki">Suzuki</option>
+          <option value="Skoda">Skoda</option>
+          <option value="Audi">Audi</option>
+          <option value="Tesla">Tesla</option>
+          <option value="Kia">Kia</option>
+          <option value="Tata">Tata</option>
+          <option value="Mahindra">Mahindra</option>
+        </select>
+    
+<input type="submit" value="Submit" class="submit-button">
+</form>
+ 
+</body>
+</html>

@@ -1,0 +1,88 @@
+h2 .red-text {
+    color: red;
+  }
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #6495ED;
+    color: white;
+    padding: 20px;
+}
+
+.header-image {
+    height: 100%;
+    margin-right: 6px;
+}
+
+.header-title {
+    font-size: 1.7rem;
+    margin-right: auto;
+}
+
+.header-project {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+body {
+  background-color: #CFF4FC; 
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin:0px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.challan-form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.label-field {
+  font-weight: bold;
+  margin-left:15px;
+   margin-top:10px;
+   margin-bottom:10px;
+   padding-top:10px;
+}
+
+.input-field,
+.select-field {
+  width: 96%;
+   margin-left:15px;
+   margin-top:5px;
+   margin-bottom:5px;
+    padding:10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.select-field {
+  width: 97.5%;
+}
+
+.submit-button {
+margin-top:10px;
+  width: 97.5%;
+ margin-left:15px;    
+  padding: 10px;
+  background-color: #4682b4; /* Steel Blue */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #5f9ea0; /* Cadet Blue */
+}
